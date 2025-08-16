@@ -29,7 +29,7 @@ const DataBox = ({ data }) => {
             <IoWaterSharp className="text-3xl text-teal-300" />
             <p className="text-gray-400">Humidity</p>
             <p className="md:text-4xl text-lg font-bold">
-              {Humidity == Underline ? 0 : Humidity} %
+              {Humidity == underline ? 0 : Humidity} %
             </p>
           </div>
         </div>
