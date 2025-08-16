@@ -24,7 +24,7 @@ const SensorBox = () => {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
-            id: "68a02a16df1659b5e4463445",
+            id: "68a03b3a40c09331f1c1ef95",
             setTemp: Number(value.trim() || 0),
             lowerValue: Number(lowerValue.trim() || 0),
           }),
